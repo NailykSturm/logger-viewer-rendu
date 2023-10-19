@@ -1,0 +1,9 @@
+[submodule "logger-backend"]
+	path = logger-backend
+	url = https://github.com/NailykSturm/logger-viewer-backend.git
+[submodule "logger-service"]
+	path = logger-service
+	url = https://github.com/NailykSturm/logger-viewer-logService.git
+[submodule "logger-frontend"]
+	path = logger-frontend
+	url = https://github.com/NailykSturm/logger-viewer-frontend.git
