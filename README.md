@@ -19,10 +19,13 @@ Répertoire central pour le projet LV. Il contient, comme sous modules git, les 
 
 ### LV Frontend
 Répertoire git du frontend. C'est cette partie qui va gérer l'interface web de l'application. Elle est développé en Angular avec les framework Tailwinds et DaisyUI.
+Plus d'informations : ![Logger Viewer Frontend README](./logger-frontend/README.md)
 
 ### LV Backend
 Répertoire de l'API utilisé par le frontend. Elle est développé en NodeJS avec le framework Express, et utilise la librairie tsoa pour générer automatiquement la documentation de l'API.
+Plus d'informations : ![Logger Viewer Backend README](./logger-backend/README.md)
 
 ### LV Service
 Répertoire du service de Logs. Il est développé en NodeJS avec le framework Express, et utilise la librairie tsoa pour générer automatiquement la documentation de l'API.
 Il est possible de l'utiliser en standalone, mais vous n'aurez pas les interfaces pour parser et avoir les stats sur les logs.
+Plus d'informations : ![Logger Viewer Service README](./logger-service/README.md)
