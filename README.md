@@ -11,19 +11,19 @@ Ce projet est composé de trois services différents :
 Les interraction entre les différents services sont représenté sur le schéma suivant :
 ![Architecture](./docs/architecture.png)
 
-Chacun de ses services peuvent être déployé hors kubernetes grâce aux docker. Il faudra dans ce cas utiliser le [docker-compose](./docker-compose.yml) qui se trouve dans ce répertoire.
-
 
 ### LV rendu
-Répertoire central pour le projet LV. Il contient, comme sous modules git, les trois autres répertoires qui contiennent les différents services.
+Répertoire central pour le projet LV. Il contient, comme sous modules git, les trois autres répertoires qui contiennent les différents services. Référez-vous [à la documentation kubernetes](./kub/kubernetes_deployment.md) pour savoir comment déployer ce projet sur un environnement kubernetes.
+
+Une seconde manière de déployer ce projet est d'utiliser les dockers. Il faudra dans ce cas utiliser se référer à [la documentation docker](./docker/docker-demployment.md) pour vous aider à déployer ce projet.
 
 ### LV Frontend
 Répertoire git du frontend. C'est cette partie qui va gérer l'interface web de l'application. Elle est développé en Angular avec les framework Tailwinds et DaisyUI.
-Plus d'informations : ![Logger Viewer Frontend README](./logger-frontend/README.md)
+Plus d'informations : [Logger Viewer Frontend README](./logger-frontend/README.md)
 
 ### LV Backend
 Répertoire de l'API utilisé par le frontend. Elle est développé en NodeJS avec le framework Express, et utilise la librairie tsoa pour générer automatiquement la documentation de l'API.
-Plus d'informations : ![Logger Viewer Backend README](./logger-backend/README.md)
+Plus d'informations : [Logger Viewer Backend README](./logger-backend/README.md)
 
 ### LV Service
 Répertoire du service de Logs. Il est développé en NodeJS avec le framework Express, et utilise la librairie tsoa pour générer automatiquement la documentation de l'API.
