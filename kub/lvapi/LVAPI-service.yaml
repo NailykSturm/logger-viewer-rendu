@@ -9,7 +9,8 @@ spec:
   ports:
   - name: lvapi-port
     protocol: TCP    
-    port: 3550
-    targetPort: 3550
+    port: 30081
+    targetPort: 30081
+    nodePort: 30081
   selector:
     app: lvapi

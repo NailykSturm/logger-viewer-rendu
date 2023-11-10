@@ -19,7 +19,7 @@ spec:
         image: nailyks/logger-viewer-backend:latest
         imagePullPolicy: Always
         ports:
-        - containerPort: 80
+        - containerPort: 30081
         resources:
           limits:
             memory: "128Mi"
